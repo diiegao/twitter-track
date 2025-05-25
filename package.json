@@ -1,0 +1,17 @@
+{
+  "name": "twitter-tracker",
+  "version": "1.0.0",
+  "description": "Tracker de Twitter/X via scraping com notifica\u00e7\u00f5es no Telegram",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "login": "node saveCookies.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "puppeteer": "^21.3.8"
+  },
+  "author": "",
+  "license": "MIT"
+}
